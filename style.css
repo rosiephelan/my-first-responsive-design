@@ -1,7 +1,10 @@
+
 body {
     background-image: url(images/markus-spiske-yXQJwO-wT1E-unsplash.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 a:hover {
@@ -18,6 +21,8 @@ header {
     padding: 50px;
     font-family: 'Mansalva', cursive;
     color: white;
+    align-self: flex-start;
+    width: 100%;
 
 }
 
@@ -40,11 +45,11 @@ h1 {
   height: 700px;
   width: auto;
   border: 10px solid transparent;
-  border-opacity: 0.7;
   border-color: hsl(205, 79%, 81%);
   border-width: 10px;
   transform: rotate(270deg);
   margin: -50px;
+  align-self: center;
 }
 
 .container {
@@ -56,4 +61,17 @@ h1 {
   width: 600px;
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px) {
+   .home_pizza {
+    height: 700px;
+    width: auto;
+    border: 10px solid transparent;
+    border-color: hsl(205, 79%, 81%);
+    border-width: 10px;
+    transform: rotate(270deg);
+    margin: -50px;
+    align-self: center;
+   }
 }
