@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    background-image: url(images/markus-spiske-yXQJwO-wT1E-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
