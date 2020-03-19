@@ -1,3 +1,9 @@
+body {
+    background-image: url(images/markus-spiske-yXQJwO-wT1E-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 a:hover {
     text-decoration: none;
     color: inherit;
@@ -8,19 +14,20 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 20%;
+    height: 200px;
     padding: 50px;
     font-family: 'Mansalva', cursive;
     color: white;
+
 }
 
-body {
-    background-image: url(images/markus-spiske-yXQJwO-wT1E-unsplash.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+button {
+  font-size: 30px;
 }
 
-header a {
+
+
+a {
   color: inherit;
   text-decoration: none;
 }
