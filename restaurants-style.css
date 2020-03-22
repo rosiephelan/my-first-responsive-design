@@ -1,0 +1,159 @@
+body, html {
+  height: 100vh;
+}
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/markus-spiske-yXQJwO-wT1E-unsplash.jpg);
+    background-size: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    font-family: 'Mansalva', cursive;
+    color: white;
+    position: fixed;
+    z-index: 1;
+
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+   }
+
+button {
+  font-size: 30px;
+  margin: 30px;;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 200px auto auto;
+  font-family: 'Mansalva', cursive;
+  width: 100%;
+}
+
+.photo_credits {
+  width: 400px;
+  margin: 0 auto auto;
+}
+
+p.credits {
+  font-size: 18px;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  overflow: wrap;
+}
+
+section {
+  width: 600px;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.restaurants_img {
+  width: 400px;
+  height: auto;
+  border: 2px solid transparent;
+  border-color: hsl(205, 79%, 81%);
+}
+
+.recipe_1  {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 0; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  display: flex; /* Make the width of box same as image */
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  color: white;
+}
+
+.column1, .column2, .column3 {
+
+  text-align: left;
+  margin: 20px;
+}
+
+.column1 {
+  width: 800px;
+}
+
+.column2 {
+  width: 800px;
+}
+
+.column3 {
+  width: 800px;
+}
+
+
+
+.navcustom {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+height: 200px;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 150px 50px 50px 50px;
+width: 100%;
+font-family: 'Mansalva', cursive;
+color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .home_pizza {
+    height: 500px;
+    width: auto;
+    border: 10px solid transparent;
+    border-color: hsl(205, 79%, 81%);
+    border-width: 10px;
+    transform: rotate(270deg);
+    margin: 100px;
+  }
+}

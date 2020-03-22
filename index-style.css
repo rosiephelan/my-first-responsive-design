@@ -32,6 +32,15 @@ h3 {
 }
 
 
+.photo_credits {
+  width: 600px;
+  margin: 0 auto auto;
+}
+
+p.credits {
+  font-size: 18px;
+}
+
 p {
   font-size: 30px;
   color: white;
@@ -98,9 +107,9 @@ section {
 footer {
 height: 200px;
 display: flex;
-justify-content: flex-end;
+flex-direction: column;
+align-items: flex-end;
 padding: 150px 50px 50px 50px;
-align-items: center;
 width: 100%;
 font-family: 'Mansalva', cursive;
 color: white;
